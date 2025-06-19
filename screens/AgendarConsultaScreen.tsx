@@ -17,7 +17,7 @@ const AgendarConsultaScreen = ({ navigation }: any) => {
 
   return (
     <View style={styles.container}>
-      <Text style={styles.label}>Especialidade</Text>
+      <Text style={styles.label}>Especialidades</Text>
       <TextInput style={styles.input} value={especialidade} onChangeText={setEspecialidade} />
       <Text style={styles.label}>Data</Text>
       <TextInput style={styles.input} value={data} onChangeText={setData} />
